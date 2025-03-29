@@ -72,7 +72,7 @@
     { "tag": "🐠 漏网之鱼", "type": "selector", "outbounds": ["🚀 节点选择","♻️ 自动选择", "🇭🇰 香港节点", "SG 新加坡节点","SG 韩国节点","🇺🇲 美国节点", "其他节点","VPS", "🔯 香港自动", "英国自动","美国自动", "🐸 手动切换","🎯 全球直连"] },
     { "tag": "🐸 手动切换", "type": "selector", "outbounds": ["{all}"]},
     { "tag": "🇭🇰 香港节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇭🇰|HK|hk|香港|港|HongKong"] }] },
-    { "tag": "🇺🇲 美国节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇺🇸|US|us|美国|United States"] }, { "action": "exclude", "keywords": ["香港|HK|hk|HongKong"] }] },
+    { "tag": "🇺🇲 美国节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇺🇸|US|us|美国|United States"] }] },
     { "tag": "SG 新加坡节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["SG|Singapore|新加坡"] }] },
     { "tag": "SG 韩国节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["KR|Korea|韩国"] }] },
     { "tag": "其他节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "exclude", "keywords": ["🇭🇰|HK|hk|香港|港|HongKong|KR|Korea|韩国|🇺🇸|US|us|美国|United States|SG|Singapore|新加坡|UK|United Kingdom|英国"] }] },    
