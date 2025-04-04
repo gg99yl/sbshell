@@ -112,7 +112,7 @@
      {"rule_set": ["geoip-cn", "geosite-cn"], "outbound": "🎯 全球直连"}
    ],
 
-   
+  
    "rule_set": [
       { "tag": "geosite-chat", "type": "remote", "format": "binary", "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs", "download_detour": "🇭🇰 香港节点" },
       { "tag": "geosite-youtube", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs", "download_detour": "🇭🇰 香港节点" },
