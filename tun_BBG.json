@@ -123,7 +123,7 @@
       { "tag": "geosite-private", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/private.srs", "download_detour": "🇭🇰 香港节点" },
       { "tag": "cryto-site", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/category-cryptocurrency.srs", "download_detour": "🇭🇰 香港节点" },
       { "tag": "okx-site", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/okx.srs", "download_detour": "🇭🇰 香港节点" },
-      { "tag": "bbc-site", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/bbc.srs", "download_detour": "🇭🇰 香港节点" },
+      { "tag": "bbc-site", "type": "remote", "format": "binary", "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/bbc.mrs", "download_detour": "🇭🇰 香港节点" },
       { "tag": "paypal-site", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/paypal.srs", "download_detour": "🇭🇰 香港节点" },
       { "tag": "github-site", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/github.srs", "download_detour": "🇭🇰 香港节点" },
      
