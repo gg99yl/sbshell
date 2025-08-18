@@ -37,8 +37,8 @@
     { "tag": "VPS", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["VPS"] }] },
     { "tag": "英国自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["UK|United Kingdom|英国"] }], "url": "http://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 50},
     { "tag": "美国自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["US|美国|United States"] }], "url": "http://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 50},
-    { "tag": "♻️ 自动选择", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "exclude", "keywords": ["网站|地址|剩余|过期|时间|有效"] }], "url": "http://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 50 },
-    { "tag": "🔯 香港自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇭🇰|HK|hk|香港|HongKong"] }], "url": "http://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 50 },
+    { "tag": "♻️ 自动选择", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "exclude", "keywords": ["官网|到期时间|剩余|流量|套餐|免费|订阅|全球直连|GB|Expire Date|Traffic|ExpireDate"]}], "interval": "10m", "tolerance": 100},
+    { "tag": "🔯 香港自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇭🇰|HK|hk|香港|HongKong"] }], "url": "http://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 100 },
     { "tag": "GLOBAL", "type": "selector", "outbounds": ["{all}"]},
     { "tag": "Cryto", "type": "selector", "outbounds":["🚀 节点选择","♻️ 自动选择", "🇭🇰 香港节点", "SG 新加坡节点","SG 韩国节点","🇺🇲 美国节点", "其他节点","VPS", "🔯 香港自动", "英国自动","美国自动", "🐸 手动切换","🎯 全球直连"] },    
     { "tag": "🎯 全球直连", "type": "direct" }
