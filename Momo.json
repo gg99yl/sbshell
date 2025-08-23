@@ -3,7 +3,7 @@
     "servers": [
       {"tag": "local", "type": "udp", "server": "202.96.134.133"},
       {"tag": "public", "type": "https", "server": "dns.alidns.com", "domain_resolver": "local"},
-      {"tag": "foreign", "type": "https", "server": https://dns.google/dns-query","client_subnet": "113.119.3.184","detour": "🚀 默认代理"},
+      {"tag": "foreign", "type": "https", "server": "https://dns.google/dns-query","client_subnet": "113.119.3.184","detour": "🚀 默认代理"},
       {"tag": "fakeip", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
     ],
    "rules": 
