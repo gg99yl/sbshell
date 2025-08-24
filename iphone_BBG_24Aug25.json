@@ -130,8 +130,8 @@
       {"tag": "bbc-site", "type": "remote", "format": "source", "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/bbc.json", "download_detour": "🎯 全球直连" },
       {"tag": "github-site", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/github.srs", "download_detour": "🎯 全球直连" }
 	],
-    "final": "🐠 漏网之鱼",
-    "default_domain_resolver": {"server": "localDns"}
+      "auto_detect_interface": true,
+      "final": "🐠 漏网之鱼"
   },
   
     "rule_set": [
