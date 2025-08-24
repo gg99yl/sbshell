@@ -161,4 +161,4 @@
       {"tag": "github-site", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/github.srs", "download_detour": "🎯 全球直连" }
 	]
 }
-}
+
