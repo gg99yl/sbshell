@@ -1,6 +1,6 @@
 	{
   "dns": {
-   "servers": [
+    "servers": [
       {"tag": "local", "type": "udp", "server": "223.5.5.5"},
       {"tag": "public", "type": "https", "server": "dns.alidns.com", "domain_resolver": "local"},
       {"tag": "foreign", "type": "https", "server": "dns.google","detour": "🚀 默认代理"},
@@ -111,7 +111,7 @@
       {"tag": "github-site", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/github.srs", "download_detour": "🎯 全球直连" }
 	],
     "final": "🐠 漏网之鱼",
-    "default_domain_resolver": {"server": "public"}
+    "default_domain_resolver": {"server": "local"}
   },
   "inbounds": [
     {
