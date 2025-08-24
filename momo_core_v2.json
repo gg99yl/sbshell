@@ -1,8 +1,8 @@
 {
   "dns": {
     "servers": [
-      {"tag": "local", "type": "local"},
-      {"tag": "public", "type": "local"},
+      {"tag": "local", "type": "udp", "server": "202.96.134.33"},
+      {"tag": "public", type": "udp", "server": "202.96.134.33"}, 
       {"tag": "foreign", "type": "https", "server": "dns.google","detour": "🚀 默认代理"}
     ],
     "rules": [
