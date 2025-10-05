@@ -49,6 +49,8 @@
     {"tag": "♻️ 自动选择", "type": "urltest", "outbounds": []},
     {"tag": "🍃 延迟辅助", "type": "urltest", "outbounds": ["🚀 默认代理", "🎯 全球直连"]},
     {"tag": "GLOBAL", "type": "selector", "outbounds": ["🚀 默认代理", "VPS手动", "🇭🇰 香港手动", "🇯🇵 日本手动", "🇸🇬 狮城手动", "🇺🇲 美国手动", "🐸 手动选择", "韩国自动", "英国手动","其他手动"]},
+	{"tag": "Skysports", "type": "selector", "outbounds": ["🚀 默认代理", "VPS手动", "🇭🇰 香港手动", "🇯🇵 日本手动", "🇸🇬 狮城手动", "🇺🇲 美国手动", "🐸 手动选择", "韩国自动", "英国手动","其他手动"]},
+    {"tag": "IBKR", "type": "selector", "outbounds": ["🚀 默认代理", "VPS手动", "🇭🇰 香港手动", "🇯🇵 日本手动", "🇸🇬 狮城手动", "🇺🇲 美国手动", "🐸 手动选择", "韩国自动", "英国手动","其他手动"]},
     {"tag": "🎯 全球直连", "type": "direct"}
   ],
   "route": {
@@ -58,8 +60,8 @@
       {"ip_is_private": true, "outbound": "🎯 全球直连"},
       {"clash_mode": "direct", "outbound": "🎯 全球直连"},
       {"clash_mode": "global", "outbound": "GLOBAL"},
-	  {"domain_suffix": "gg99usayl.top", "outbound": "🎯 全球直连"},
-	  {"domain_suffix": ["interactivebrokers.com"], "outbound": "🇺🇲 美国手动"},	
+      {"rule_set": ["sky","skycn","skyperfect"], "outbound": "Skysports"},  
+      {"rule_set": "ibkr", "outbound": "IBKR"}, 
       {"domain": ["interactivebrokers.com"], "outbound": "🇺🇲 美国手动"},	  
       {"rule_set": "github-site", "outbound": "🚀 默认代理"},    	  
       {"rule_set": "geosite-ai", "outbound": "🧠 AI"},
@@ -110,6 +112,10 @@
       {"tag": "okx-site", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/okx.srs", "download_detour": "🎯 全球直连" },
       {"tag": "bbc-site", "type": "remote", "format": "source", "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/bbc.json", "download_detour": "🎯 全球直连" },
       {"tag": "github-site", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/github.srs", "download_detour": "🎯 全球直连" }
+      {"tag": "skyperfect", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/skyperfect.srs", "download_detour": "🎯 全球直连" },
+      {"tag": "skycn", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/sky@cn.srs", "download_detour": "🎯 全球直连" },
+      {"tag": "sky", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/sky.json", "download_detour": "🎯 全球直连" },
+      {"tag": "ibkr", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/ibkr.srs", "download_detour": "🎯 全球直连" }
 	],
     "final": "🐠 漏网之鱼",
     "default_domain_resolver": {"server": "public"}
