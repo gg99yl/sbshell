@@ -117,8 +117,8 @@
       {"tag": "skyperfect", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/skyperfect.srs", "download_detour": "🎯 全球直连" },
       {"tag": "skycn", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/sky@cn.srs", "download_detour": "🎯 全球直连" },
       {"tag": "sky", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/sky.json", "download_detour": "🎯 全球直连" },
-      {"tag": "ibkr", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/ibkr.srs", "download_detour": "🎯 全球直连" }
-	    {"tag": "spotify", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/spotify.srs", "download_detour": "🎯 全球直连" }
+      {"tag": "ibkr", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/ibkr.srs", "download_detour": "🎯 全球直连" },
+	  {"tag": "spotify", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/sing/geo/geosite/spotify.srs", "download_detour": "🎯 全球直连" }
 
 ],
     "final": "🐠 漏网之鱼",
