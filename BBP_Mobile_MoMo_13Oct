@@ -2,7 +2,7 @@
   "dns": {
     "servers": [
       {"tag": "local", "type": "udp", "server": "202.96.128.166"},
-      {"tag": "public", "type": "udp", "server": "202.96.128.166"}
+      {"tag": "public", "type": "udp", "server": "202.96.128.166"},
       {"tag": "foreign", "type": "https", "server": "dns.google","detour": "🚀 默认代理"},
       {"tag": "fakeip", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
     ],
