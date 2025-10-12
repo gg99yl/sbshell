@@ -61,6 +61,7 @@
       {"ip_is_private": true, "outbound": "🎯 全球直连"},
       {"clash_mode": "direct", "outbound": "🎯 全球直连"},
       {"clash_mode": "global", "outbound": "GLOBAL"},
+	  {"domain": "truthsocial.com", "outbound": "🇺🇲 美国自动"},
 	  {"domain_suffix": "gg99usayl.top", "outbound": "🎯 全球直连"},
       {"rule_set": ["sky","skycn","skyperfect"], "outbound": "Skysports"},  
       {"rule_set": "ibkr", "outbound": "IBKR"},  
