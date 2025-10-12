@@ -3,7 +3,7 @@
     "servers": [
       {"tag": "local", "type": "local"},
       {"tag": "public", "type": "local"},
-      {"tag": "foreign", "type": "https", "server": "dns.google","client_subnet": "113.119.11.55","detour": "🚀 默认代理"},
+      {"tag": "foreign", "type": "https", "server": "dns.google","detour": "🚀 默认代理"},
       {"tag": "fakeip", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
     ],
     "rules": [
@@ -61,7 +61,7 @@
       {"ip_is_private": true, "outbound": "🎯 全球直连"},
       {"clash_mode": "direct", "outbound": "🎯 全球直连"},
       {"clash_mode": "global", "outbound": "GLOBAL"},
-	  {"domain": "truthsocial.com", "outbound": "🇺🇲 美国自动"},
+	  {"domain_suffix": "truthsocial.com", "outbound": "🇺🇲 美国自动"},
 	  {"domain_suffix": "gg99usayl.top", "outbound": "🎯 全球直连"},
       {"rule_set": ["sky","skycn","skyperfect"], "outbound": "Skysports"},  
       {"rule_set": "ibkr", "outbound": "IBKR"},  
