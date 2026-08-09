@@ -1,4 +1,36 @@
 name = us
-2, truthsocial.com
-2, nba.com
-2, formula1.com
+2,truthsocial.com
+2,nba.com
+2,formula1.com
+2,d2n9h2wits23hf.cloudfront.net
+2,f1prodlive.akamaized.net
+2,mobile-collector.newrelic.com
+2,bitmovin.com
+2,1esports.com
+2,f1manager.com
+2,f1play.com
+2,githubcopilot.com
+2,microsoftonline.com
+2,copilot.microsoft.com
+2,push.apple.com
+2,push-apple.com.akadns.net
+2,apple.com.edgekey.net
+0,17.249.0.0/16
+0,17.252.0.0/16
+0,17.57.144.0/22
+0,17.188.128.0/18
+0,17.188.20.0/23
+1,2620:149:a44::/48
+1,2403:300:a42::/48
+1,2403:300:a51::/48
+1,2a01:b740:a42::/48
+2,apple.comscoreresearch.com
+2,gateway.icloud.com
+2,news-client.apple.com
+2,news-edge.apple.com
+2,news-events.apple.com
+2,apple.news
+2,np-edge.itunes.apple.com
+2,play-edge.itunes.apple.com
+2,uts-api.itunes.apple.com
+2,tv.apple.com
