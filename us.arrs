@@ -34,3 +34,31 @@ name = us
 2,play-edge.itunes.apple.com
 2,uts-api.itunes.apple.com
 2,tv.apple.com
+2, gspe1-ssl.ls.apple.com
+2, news-client-search.apple.com
+2, apple-relay.apple.com
+2, apple-relay.cloudflare.com
+2, apple-relay.fastly-edge.com
+2, apple-relay.mask.apple-dns.net
+
+2, interactivebrokers.com
+2, interactivebrokers.ca
+2, interactivebrokers.ie
+2, ibkr.com
+2, interactivebrokers.eu
+2, ibkr.ca
+2, ibllc.com
+2, ibkr.eu
+2, ibkr.ie
+2, ibkrguides.com
+2, ibkr.com.sg
+2, ibkr.co.in
+2, interactivebrokers.co.in
+2, interactivebrokers.co.jp
+2, interactivebrokers.co.uk
+2, ibkr.com.hk
+2, interactivebrokers.com.au
+2, interactivebrokers.com.hk
+2, interactivebrokers.com.sg
+2, ibkr.com.au
+2, ibkr.co.uk
