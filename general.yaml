@@ -1,3 +1,2 @@
-  - AND,((NETWORK,UDP),(OR,((DST-PORT,500),(DST-PORT,4500)))),英国-故转
   - AND,((AND,((NETWORK,udp),(DST-PORT,443))),(NOT,((GEOSITE,cn)))),REJECT
   - AND,((AND,((NETWORK,udp),(DST-PORT,443))),(NOT,((GEOIP,cn)))),REJECT
